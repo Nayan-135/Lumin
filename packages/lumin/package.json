@@ -1,0 +1,40 @@
+{
+  "name": "@nayan-ghate/lumin",
+  "version": "1.0.4",
+  "type": "module",
+  "description": "Fine-grained reactive JavaScript UI framework with no Virtual DOM",
+  "main": "./packages/index.js",
+  "exports": {
+    ".": "./packages/index.js",
+    "./ssr": "./packages/ssr/index.js",
+    "./devtools": "./packages/devtools/index.js"
+  },
+  "scripts": {
+    "test": "node test-core.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nayan-135/Lumin.git"
+  },
+  "keywords": [
+    "lumin",
+    "javascript",
+    "ui-framework",
+    "reactive",
+    "signals",
+    "no-virtual-dom",
+    "fine-grained-reactivity",
+    "ssr"
+  ],
+  "author": "Nayan Ghate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nayan-135/Lumin/issues"
+  },
+  "homepage": "https://github.com/Nayan-135/Lumin#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.28.6",
+    "@babel/preset-react": "^7.28.5"
+  }
+}

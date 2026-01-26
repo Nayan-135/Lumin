@@ -1,0 +1,33 @@
+{
+  "name": "lumin",
+  "private": true,
+  "description": "Lumin monorepo – fine-grained reactive UI framework, CLI, and documentation",
+  "author": "Nayan Ghate",
+  "license": "MIT",
+
+  "workspaces": [
+    "packages/*"
+  ],
+
+  "scripts": {
+    "dev": "echo \"Run dev from individual packages\"",
+    "lint": "echo \"Add linting later if needed\"",
+    "build": "echo \"Build handled per package\"",
+    "test": "echo \"Tests handled per package\""
+  },
+
+  "engines": {
+    "node": ">=18"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nayan-135/Lumin.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/Nayan-135/Lumin"
+  },
+
+  "homepage": "https://lumin-docs.vercel.app/"
+}
